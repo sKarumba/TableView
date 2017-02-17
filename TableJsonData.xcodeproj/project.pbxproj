@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		736A7D1E1E5206FC00D4E4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7D1D1E5206FC00D4E4DE /* AppDelegate.swift */; };
-		736A7D201E5206FC00D4E4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7D1F1E5206FC00D4E4DE /* ViewController.swift */; };
 		736A7D231E5206FC00D4E4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736A7D211E5206FC00D4E4DE /* Main.storyboard */; };
 		736A7D251E5206FC00D4E4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736A7D241E5206FC00D4E4DE /* Assets.xcassets */; };
 		736A7D281E5206FC00D4E4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736A7D261E5206FC00D4E4DE /* LaunchScreen.storyboard */; };
+		736A7D311E5208AF00D4E4DE /* JsonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7D301E5208AF00D4E4DE /* JsonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		736A7D1A1E5206FC00D4E4DE /* TableJsonData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableJsonData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736A7D1D1E5206FC00D4E4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		736A7D1F1E5206FC00D4E4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		736A7D221E5206FC00D4E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736A7D241E5206FC00D4E4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736A7D271E5206FC00D4E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736A7D291E5206FC00D4E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736A7D301E5208AF00D4E4DE /* JsonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		736A7D1C1E5206FC00D4E4DE /* TableJsonData */ = {
 			isa = PBXGroup;
 			children = (
-				736A7D1D1E5206FC00D4E4DE /* AppDelegate.swift */,
-				736A7D1F1E5206FC00D4E4DE /* ViewController.swift */,
+				736A7D2F1E52072E00D4E4DE /* Supporting Files */,
 				736A7D211E5206FC00D4E4DE /* Main.storyboard */,
+				736A7D301E5208AF00D4E4DE /* JsonTableViewController.swift */,
+			);
+			path = TableJsonData;
+			sourceTree = "<group>";
+		};
+		736A7D2F1E52072E00D4E4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				736A7D1D1E5206FC00D4E4DE /* AppDelegate.swift */,
 				736A7D241E5206FC00D4E4DE /* Assets.xcassets */,
 				736A7D261E5206FC00D4E4DE /* LaunchScreen.storyboard */,
 				736A7D291E5206FC00D4E4DE /* Info.plist */,
 			);
-			path = TableJsonData;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736A7D201E5206FC00D4E4DE /* ViewController.swift in Sources */,
 				736A7D1E1E5206FC00D4E4DE /* AppDelegate.swift in Sources */,
+				736A7D311E5208AF00D4E4DE /* JsonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
